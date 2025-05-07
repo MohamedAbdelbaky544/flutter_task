@@ -1,0 +1,11 @@
+{
+  "items": "Items",
+  "pricing": "Pricing",
+  "info": "Info",
+  "tasks": "Tasks",
+  "analytics": "Analytics",
+  "addANewItem": "Add a New Item",
+  "pendingApproval": "Pending Approval",
+  "unfinishedTasks": "unfinished tasks",
+  "tabItems": "{type, select, items{Items} pricing{Pricing} info{Info} mosques{Mosques} tasks{Tasks} analytics{Analytics}  other{None}}"
+}
