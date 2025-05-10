@@ -7,6 +7,7 @@ class Trip {
   final DateTime endDate;
   final int unfinishedTasks;
   final int nights;
+  final String? image;
 
   final List<Tourist>? tourists;
 
@@ -17,6 +18,7 @@ class Trip {
     required this.endDate,
     required this.unfinishedTasks,
     required this.nights,
+    this.image,
     this.tourists,
   });
 }

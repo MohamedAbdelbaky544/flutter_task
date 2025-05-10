@@ -25,6 +25,8 @@ abstract class AppColorScheme {
   Color get dividerColor => const Color(0xff262626);
 
   Color get errorColor => Colors.red;
+
+  Color get successColor => Colors.green;
 }
 
 class AppDarkColors extends AppColorScheme {

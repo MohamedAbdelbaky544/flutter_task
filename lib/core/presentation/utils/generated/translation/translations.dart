@@ -146,6 +146,72 @@ abstract class Translations {
   /// In en, this message translates to:
   /// **'{type, select, items{Items} pricing{Pricing} info{Info} mosques{Mosques} tasks{Tasks} analytics{Analytics}  other{None}}'**
   String tabItems(String type);
+
+  /// No description provided for @home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Page'**
+  String get home;
+
+  /// No description provided for @notification.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification'**
+  String get notification;
+
+  /// No description provided for @settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settings;
+
+  /// No description provided for @filters.
+  ///
+  /// In en, this message translates to:
+  /// **'Filters'**
+  String get filters;
+
+  /// No description provided for @success.
+  ///
+  /// In en, this message translates to:
+  /// **'success'**
+  String get success;
+
+  /// No description provided for @errorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'OOPS! Something went wrong'**
+  String get errorMessage;
+
+  /// No description provided for @accessDeniedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Access Denied, You have insufficient privileges'**
+  String get accessDeniedMessage;
+
+  /// No description provided for @connectionTimeOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection Time Out!'**
+  String get connectionTimeOut;
+
+  /// No description provided for @retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
+
+  /// No description provided for @noInternetConnection.
+  ///
+  /// In en, this message translates to:
+  /// **'No internet connection'**
+  String get noInternetConnection;
+
+  /// No description provided for @thereIsNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'There Is No Data'**
+  String get thereIsNoData;
 }
 
 class _TranslationsDelegate extends LocalizationsDelegate<Translations> {

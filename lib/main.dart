@@ -1,19 +1,26 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 import 'package:flutter_task/core/presentation/themes/app_theme.dart';
 import 'package:flutter_task/core/presentation/utils/generated/translation/translations.dart';
 import 'package:flutter_task/core/presentation/utils/routing/route_info.dart';
 import 'package:flutter_task/core/presentation/utils/routing/router.dart';
 import 'package:flutter_task/home/presentation/pages/home_page.dart';
+import 'package:flutter_task/injection.dart';
 import 'package:go_router/go_router.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  await configureInjection();
+  if (kIsWeb) {
+    SemanticsBinding.instance.ensureSemantics();
+  }
   runApp(const MyApp());
 }
 

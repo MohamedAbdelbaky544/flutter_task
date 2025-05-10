@@ -7,5 +7,16 @@
   "addANewItem": "Add a New Item",
   "pendingApproval": "Pending Approval",
   "unfinishedTasks": "unfinished tasks",
-  "tabItems": "{type, select, items{Items} pricing{Pricing} info{Info} mosques{Mosques} tasks{Tasks} analytics{Analytics}  other{None}}"
+  "tabItems": "{type, select, items{Items} pricing{Pricing} info{Info} mosques{Mosques} tasks{Tasks} analytics{Analytics}  other{None}}",
+  "home": "Home Page",
+  "notification": "Notification",
+  "settings": "Settings",
+  "filters": "Filters",
+  "success": "success",
+  "errorMessage": "OOPS! Something went wrong",
+  "accessDeniedMessage": "Access Denied, You have insufficient privileges",
+  "connectionTimeOut": "Connection Time Out!",
+  "retry": "Retry",
+  "noInternetConnection": "No internet connection",
+  "thereIsNoData": "There Is No Data"
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/presentation/themes/app_color_scheme.dart';
+import 'package:flutter_task/core/presentation/utils/screen_utils.dart';
 
 class AppTheme {
   final AppColorScheme _appColorScheme;
@@ -28,7 +29,7 @@ class AppTheme {
       fontFamily: 'Inter',
       textTheme: TextTheme(
         headlineLarge: TextStyle(
-          fontSize: 32,
+          fontSize: checkResponsive(context) == ResponsiveUI.web ? 32 : 24,
           fontWeight: FontWeight.w400,
           color: _appColorScheme.textColor.white,
         ),
